@@ -1,12 +1,18 @@
-🐾 Pet Adoption System
+## 🐾 Pet Adoption System
 
-A web platform for users to adopt pets online and for admins to manage listings, making pet adoption simple and accessible for everyone.
+The Pet Adoption System is a comprehensive web platform that allows users to adopt pets online while providing administrators with tools to efficiently manage pet listings and adoption requests. This system is designed to simplify the pet adoption process, ensuring accessibility, transparency, and ease of use for both adopters and administrators.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 PHP | MySQL | HTML | CSS | JavaScript | Bootstrap
 
-👥 Team Members
+PHP & MySQL: Handles server-side logic, database operations, and user authentication.
+
+HTML, CSS & Bootstrap: Creates responsive, modern, and user-friendly interfaces.
+
+JavaScript: Enhances front-end interactivity and dynamic content display.
+
+## 👥 Team Members
 
 Daniel Poh
 
@@ -18,14 +24,58 @@ Chuar Kia Yi
 
 Jackin Fu
 
-✨ Features
+## 📌 Project Overview
 
-User Registration & Login: Secure sign-up and login for adopters and admins.
+The platform consists of two main user roles:
 
-Pet Listings: Browse available pets with photos, descriptions, and adoption status.
+Adopters (Users) – Can browse available pets, view detailed information, submit adoption requests, and track the status of their requests.
 
-Adoption Requests: Submit and manage adoption applications online.
+Admins – Can manage pet listings (add, edit, delete), review and process adoption requests, and maintain overall system integrity.
 
-Admin Dashboard: Add, edit, or remove pet listings and manage adoption requests.
+The system ensures smooth communication between adopters and administrators while maintaining accurate records of all pets and adoption requests.
 
-Responsive Design: Works well on both desktop and mobile devices.
+## ✨ Key Features
+
+**User Registration & Login:**
+
+Secure account creation with email and password.
+
+Role-based access control (user vs admin).
+
+Session management to maintain user login state.
+
+**Pet Listings:**
+
+View all available pets with images, descriptions, age, breed, and adoption status.
+
+Easily filter pets by category (type, age, availability).
+
+Clear display of adoption availability for informed decisions.
+
+**Adoption Requests:**
+
+Users can submit requests to adopt pets directly from the platform.
+
+Admins can review requests, approve or reject them, and update request statuses.
+
+Automated status updates notify users of approval or rejection.
+
+**Admin Dashboard:**
+
+Add, edit, or remove pet listings with ease.
+
+Track all adoption requests and manage user interactions.
+
+Dashboard interface designed for efficient administrative control.
+
+**Responsive Design:**
+
+Fully responsive layout for desktop, tablet, and mobile devices.
+
+Ensures a consistent and smooth experience across different screen sizes.
+
+**Data Management & Security:**
+
+All data stored in a MySQL database with structured tables for users, pets, and adoption requests.
+
+Input validation and basic security measures to prevent invalid entries or unauthorized access.
